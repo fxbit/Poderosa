@@ -202,7 +202,6 @@ namespace Poderosa.Sessions {
             tp.Attach(this);
 
             _terminalControl = tp;
-            _terminal.Attached(tp);
         }
         public void InternalDetachView(IPoderosaDocument document, IPoderosaView view) {
             Debug.WriteLineIf(DebugOpt.ViewManagement, "DETACH VIEW");
