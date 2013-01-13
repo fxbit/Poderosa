@@ -47,13 +47,14 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UIDesign|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\UIDesign\</OutputPath>
+    <OutputPath>..\bin\Debug\TerminalSession\</OutputPath>
     <DefineConstants>TRACE;DEBUG;UIDESIGN</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <DebugType>full</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
-    <DocumentationFile>bin\UIDesign\Poderosa.TerminalSession.XML</DocumentationFile>
+    <DocumentationFile>
+    </DocumentationFile>
     <NoWarn>1591</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
